@@ -1438,7 +1438,8 @@ var Reveal = (function(){
 		// Re-create the slide backgrounds
 		createBackgrounds();
 
-		updateControls();
+		/* disable for haroopad */
+		// updateControls();
 		updateProgress();
 		updateBackground();
 
@@ -2456,6 +2457,7 @@ var Reveal = (function(){
 		initialize: initialize,
 		configure: configure,
 		sync: sync,
+		start: start,
 
 		// Navigation methods
 		slide: slide,
