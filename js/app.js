@@ -19,7 +19,7 @@ var opt = {
 marked.setOptions(opt);
 
 function tokenize(md) {
-	var tokens = md.split('***');
+	var tokens = md.split('* * *');
 	return tokens;
 }
 
