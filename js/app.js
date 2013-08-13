@@ -60,7 +60,7 @@ win.on('update', function(md) {
 
   // Full list of configuration options available here:
   // https://github.com/hakimel/reveal.js#configuration
-  
+
   if (!_init) {
   Reveal.initialize({
     controls: true,
